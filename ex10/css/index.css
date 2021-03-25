@@ -1,0 +1,108 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100%;
+    height: auto;
+}
+
+#left {
+    position: relative;
+    float: left;
+    width: 40%;
+    height: 800px;
+    background-color: black;
+}
+
+#signin, footer {
+    position: relative;
+    left: calc(50% - 200px);
+}
+
+.logo {
+    padding: 80px 50px 70px;
+}
+
+.logo img {
+    width: 300px;
+    height: auto;
+}
+
+#signin label {
+    display: block;
+    margin-bottom: 4px;
+    color: #fff;
+}
+
+.text-input {
+    width: 400px;
+    height: 30px;
+    background-color: #000;
+    color: white;
+    border: 0.5px solid #ffffff93;
+    margin-bottom: 20px;
+}
+
+button.primary-btn, div#signin .secondary-btn{
+    width: 400px;
+    height: 30px;
+}
+
+.primary-btn {
+    background-color: rgb(15, 107, 194);
+    color: #fff;
+    border: 0ch;
+    margin-bottom: 40px;
+}
+
+#links a, .hr-bar {
+    width: 400px;
+    display: block;
+    padding-bottom: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.hr-bar {
+    margin: 10px 0;
+}
+
+.secondary-btn {
+    display: block;
+    background-color: rgb(87, 86, 86);
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    padding-top: 8px;
+}
+
+footer {
+    width: 400px;
+    color: white;
+    text-align: center;
+    text-size-adjust: small;
+    margin: 90px 0 60px  ;
+    font-size: small;
+}
+footer a {
+    color: white;
+}
+
+div#right {
+    width: 60%;
+    background-image: url("https://image.ibb.co/cO9Lxq/login-bg.jpg");
+    color: white;
+    height: 800px;
+    margin-left: 40%;
+}
+div#right h1 {
+    padding: 40% 13% 3%;
+    font-size: 50px;
+}
+div#showcase .secondary-btn {
+    height: 30px;
+    width: 500px;
+    margin-left:22%;
+}
