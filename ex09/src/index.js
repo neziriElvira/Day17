@@ -43,7 +43,7 @@ function getUsers() {
     for (let i = 0; i < users.length; i++) {
         output += `${users[i].id} - ${users[i].firstName} ${users[i].lastName} is ${users[i].age}, ${users[i].gender}\n\n`;
     }
-    return console.log(output);
+    return output;
 }
 
 //getUsers function - list of users ends here
@@ -53,10 +53,9 @@ function findUserById(id) {
     try {
         var user = _.find(users, { 'id': id }); // add appropriate code here
         var iFindUser = `${user.id} - ${user.firstName} ${user.lastName} is ${user.age}, ${user.gender}`;
-        return console.log(iFindUser);
+        return iFindUser;
     } catch (error) {
-        console.log(`Cannot read property 'id'`);
-        return `Cannot read property 'id' of undefined`; // Change this line
+        return `Cannot read property 'id'`; // Change this line
     }
 }
 //findUser(lastName, gender) function ends here
